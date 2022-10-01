@@ -31,35 +31,6 @@ for (let anchor of anchors) {
     })
 }
 
-// let summaries = document.querySelectorAll('[data-name="accordion-summary"]');
-// let summariesDecor = document.querySelectorAll('[data-services-active]');
-// console.log(summariesDecor)
-
-// summaries.forEach(function(i){
-//     i.addEventListener('click', showContent);
-//     i.addEventListener('click', changeDecor);
-// })
-
-// function showContent(){
-//     this.nextElementSibling.classList.toggle('hidden');
-// }
-// function changeDecor(){
-//     summariesDecor.classList.toggle('active');
-// }
-
-
-
-// summaries.forEach(function(i){
-//     // let summariesBtn = i.lastChild;
-//     // console.log(summariesBtn)
-//     // i.addEventListener('click', function(){
-
-//     //     summariesBtn.classList.remove('active'); 
-//     // })
-
-
-
-// })
 let languages = document.querySelector('[data-languages');
 let selectLang = document.querySelectorAll('[data-language]');
 const allLang = ['eng', 'ru', 'ua'];
